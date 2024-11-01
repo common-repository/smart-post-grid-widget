@@ -1,0 +1,72 @@
+.stars .star{
+    background-image: url('images/like.png');
+	background-position: left -2px;
+	display: block;
+	width: 28px;
+	height: 27px;
+	line-height: 16px;
+	float: left;
+	cursor: pointer;
+	zoom: 1;
+	box-shadow: none;
+	background-size: 50px;
+	margin:15px 0;
+	border:none !important;
+	box-shadow:none !important;
+}
+.stars .star:nth-child(2){
+	background-position: right -2px;
+}
+
+.stars .star:nth-child(2).fullStar{
+    background-position:right -54px;
+}
+
+.stars .star:nth-child(2).tmp_es{
+    background-position:right 0px;
+}
+
+.stars .star:nth-child(2).tmp_fs{
+    background-position:right -26px;
+}
+/*.star-rating input[type=radio]{ display:none; }*/
+
+.stars .fullStar{
+    background-position:left -59px;
+}
+
+.stars{
+    overflow: hidden; float: left; margin: 3px 0;
+}
+
+.stars .tmp_es{
+    background-position:left -2px;
+}
+
+.stars .tmp_fs{
+    background-position:left -28px;
+}
+
+#smprtf input[type="submit"]{
+	margin: 15px 15px;
+	padding: 5px 8px;
+}
+
+#loginform_rate1 {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 320px;
+    padding: 10px;
+    margin: auto;
+    bottom: 0;
+    height: 320px;
+    background: #fff;
+    z-index: 1;
+	display:none;
+	border: 1px solid #333;
+}
+#loginform_rate1.show{ display:block; }
+
+.riquickContact p{ margin:0; }
